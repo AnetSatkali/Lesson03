@@ -35,16 +35,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(menu1);
         }
         else if(view.getId() == R.id.btn2){
-            Intent menu1 = new Intent( packageContext: this, MenuActivity1.class);
-            startActivity(menu1);
+            Intent menu2 = new Intent( packageContext: this, MenuActivity1.class);
+            startActivity(menu2);
         }
         else if(view.getId() == R.id.btn3){
-            Intent menu1 = new Intent( packageContext: this, MenuActivity2.class);
-            startActivity(menu1);
+            Intent menu3 = new Intent( packageContext: this, MenuActivity2.class);
+            startActivity(menu3);
         }
         else if(view.getId() == R.id.btn4){
-            Intent menu1 = new Intent( packageContext: this, MenuActivity3.class);
-            startActivity(menu1);
+            Intent menu4 = new Intent( packageContext: this, MenuActivity3.class);
+            startActivity(menu4);
         }
     }
 }
