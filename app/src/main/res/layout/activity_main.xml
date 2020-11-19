@@ -15,14 +15,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnMenu1"
+            android:id="@+id/btn1"
             style="@style/menu_btn_style"
-            android:text="Menu 1" />
+            android:text="Rabbit" />
 
         <Button
-            android:id="@+id/btnMenu2"
+            android:id="@+id/btn2"
             style="@style/menu_btn_style"
-            android:text="Menu 2"/>
+            android:text="Mouse"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,14 +31,14 @@
         android:orientation="horizontal">
 
         <Button
-        android:id="@+id/btnMenu3"
+        android:id="@+id/btn3"
         style="@style/menu_btn_style"
-        android:text="Menu 3" />
+        android:text="Dog" />
 
         <Button
-            android:id="@+id/btnMenu4"
+            android:id="@+id/btn4"
             style="@style/menu_btn_style"
-            android:text="Menu 4" />
+            android:text="Cat" />
 
     </LinearLayout>
 

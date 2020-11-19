@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnMenu1 = findViewById(R.id.btnMenu1);
-        btnMenu2 = findViewById(R.id.btnMenu2);
-        btnMenu3 = findViewById(R.id.btnMenu3);
-        btnMenu4 = findViewById(R.id.btnMenu4);
+        btnMenu1 = findViewById(R.id.btn1);
+        btnMenu2 = findViewById(R.id.btn2);
+        btnMenu3 = findViewById(R.id.btn3);
+        btnMenu4 = findViewById(R.id.btn4);
 
         btnMenu1.setOnClickListener(this);
         btnMenu2.setOnClickListener(this);
@@ -30,12 +30,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     @Override
     public void onClick(View view) {
-        if(view.getId() == R.id.btnMenu1){
+        if(view.getId() == R.id.btn1){
+            Intent menu1 = new Intent( packageContext: this, MenuActivity.class);
+            startActivity(menu1);
+        }
+        else if(view.getId() == R.id.btn2){
             Intent menu1 = new Intent( packageContext: this, MenuActivity1.class);
             startActivity(menu1);
         }
-        else if(view.getId() == R.id.btnMenu2){
-            Intent menu1 = new Intent( packageContext: this, MenuActivity1.class);
+        else if(view.getId() == R.id.btn3){
+            Intent menu1 = new Intent( packageContext: this, MenuActivity2.class);
+            startActivity(menu1);
+        }
+        else if(view.getId() == R.id.btn4){
+            Intent menu1 = new Intent( packageContext: this, MenuActivity3.class);
             startActivity(menu1);
         }
     }
